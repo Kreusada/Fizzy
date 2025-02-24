@@ -1,6 +1,10 @@
-![Fizzy](fizzy.png)
-
-# Fizzy
+<h1 align="center">
+  <br>
+  <a href="https://github.com/Kreusada/Fizzy"><img src="https://raw.githubusercontent.com/Kreusada/Fizzy/refs/heads/main/fizzy.png" alt="Fizzy"></a>
+  <br>
+  Fizzy
+  <br>
+</h1>
 
 Fizzy is a fun bijective text transformer. It performs base-64 encoding on a predefined charset
 of unicode characters that resemble bubbles through their appearance. Each character is transformed and joined together with the Latin lower case "o" character.
