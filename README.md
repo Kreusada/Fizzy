@@ -45,6 +45,7 @@ Use the **isfizzy** function to check if the given text is fizzy:
 
 >>> fizzy.isfizzy("ꝏ᧐o౦᧐o୦᧐o᱀᧐o౦᧐o⁰᧐")
 True
+
 >>> fizzy.isfizzy("o0o0o0o0o0o0o0")
 False
 ```
@@ -56,14 +57,18 @@ False
 
 >>> fizzy.fizz("Apple")
 '᧐᧐o᭐᧐o᭐᧐o᠐᧐o౦᧐'
+
 >>> fizzy.fizz("12345")
 '᮰o᱀o᱐o⁰o₀'
+
 >>> fizzy.fizz("🚀💡🎨")
 '𖫩߀૦o𑵐ꓳ૦o๐𛱄૦'
+
 >>> fizzy.fizz("愚蠢的功能")
 '߀°оo᛫🇴Ⓞo°߀ₒo૦𐓪Оo𐴰꯰Ⓞ'
 
 >>> import string
+
 >>> fizzy.fizz(string.punctuation)
 '𑵐o᛫o୦o௦o౦o೦o൦o๐o໐o၀o᥆o᠐o0o᪀o᪐o꩐o.o𐒠o𐴰o０o𑃰o𖫩᧐o०᧐o০᧐o*᧐o੦᧐o૦᧐o🇴᧐o.᧐o𐒠᧐o𐴰᧐o０᧐'
 ```
